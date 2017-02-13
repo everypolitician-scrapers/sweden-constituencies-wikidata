@@ -11,7 +11,8 @@ query = <<QUERY
   SELECT DISTINCT ?item ?itemLabel
   WHERE
   {
-    ?item wdt:P31 wd:Q200547 .
+    ?item wdt:P31 wd:Q192611 ;
+          wdt:P17 wd:Q34 .
   }
 QUERY
 
